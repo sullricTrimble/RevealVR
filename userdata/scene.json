@@ -1,0 +1,529 @@
+{
+  "version": "1.0.0.1",
+  "id": "1485b05b-ae17-4df8-8fcd-d632aac9f35b",
+  "source": "Trimble Reveal 2.2.0.9",
+  "initial": "813288cd-d3f0-4bb3-8465-4abf2906b6d8",
+  "assetgroups": [
+    {
+      "cache": true,
+      "name": "general-assets",
+      "paths": {
+        "audio": "assets\\audio\\",
+        "image": "assets\\images\\"
+      },
+      "assets": [
+        {
+          "id": "61e94857-779f-4937-a933-8fa021ab9ae7",
+          "name": "click-sound",
+          "shortdesc": "",
+          "type": "audio",
+          "source": "click.ogg",
+          "visible": true
+        },
+        {
+          "id": "10cd643a-bcc5-485a-ad81-7a8bb2c718a8",
+          "name": "location-pin1",
+          "shortdesc": "",
+          "type": "image",
+          "source": "location_pin.png",
+          "visible": true
+        },
+        {
+          "id": "a2adaf26-7076-42d8-b525-c12a7a48e63f",
+          "name": "location-pin2",
+          "shortdesc": "",
+          "type": "image",
+          "source": "location_pin2.png",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "cache": true,
+      "name": "scene-assets",
+      "paths": {
+        "image": "userdata\\scene\\"
+      },
+      "assets": [
+        {
+          "id": "49a29f40-7863-416a-ade5-d705188a846b",
+          "name": "View Station 3_thumb",
+          "shortdesc": "",
+          "type": "image",
+          "source": "thumb_813288cd-d3f0-4bb3-8465-4abf2906b6d8.png",
+          "visible": true
+        },
+        {
+          "id": "6bb6df31-17ad-448d-8517-7cba8fcdb3eb",
+          "name": "View Station 2_thumb",
+          "shortdesc": "",
+          "type": "image",
+          "source": "thumb_a6964350-00a7-49d9-a225-9d3a6f5e8452.png",
+          "visible": true
+        },
+        {
+          "id": "a7333875-5b59-4132-9c9a-5d3818e52e4f",
+          "name": "View Station 1_thumb",
+          "shortdesc": "",
+          "type": "image",
+          "source": "thumb_f00458bd-872d-4f49-8bad-edb8c1b463a7.png",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "cache": true,
+      "name": "scene-large-assets",
+      "paths": {
+        "image": "userdata\\scene\\"
+      },
+      "assets": [
+        {
+          "id": "6a2dba5f-9503-4525-a6a0-572c352fd1ae",
+          "name": "View Station 3_pano",
+          "shortdesc": "",
+          "type": "image",
+          "source": "813288cd-d3f0-4bb3-8465-4abf2906b6d8.png",
+          "visible": true
+        },
+        {
+          "id": "10c3e1fd-b59e-4d78-b72f-1bf2434d2937",
+          "name": "View Station 2_pano",
+          "shortdesc": "",
+          "type": "image",
+          "source": "a6964350-00a7-49d9-a225-9d3a6f5e8452.png",
+          "visible": true
+        },
+        {
+          "id": "24e646ec-9a62-4f8e-87b7-af9451a17a7b",
+          "name": "View Station 1_pano",
+          "shortdesc": "",
+          "type": "image",
+          "source": "f00458bd-872d-4f49-8bad-edb8c1b463a7.png",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "cache": false,
+      "name": "user-assets",
+      "paths": {
+        "image": "userdata\\images\\"
+      },
+      "assets": [
+        {
+          "id": "5605020b-ce06-4742-9549-68476ee7a806",
+          "name": "Img_P004_01.jpeg",
+          "shortdesc": "Img_P004_01.jpeg",
+          "type": "image",
+          "source": "Img_P004_01_20190624160159142.jpeg",
+          "visible": true
+        },
+        {
+          "id": "4d4065d9-0f7c-4702-87c2-223b4f2f99c9",
+          "name": "Img_P003_01.jpeg",
+          "shortdesc": "Img_P003_01.jpeg",
+          "type": "image",
+          "source": "Img_P003_01_20190624160159073.jpeg",
+          "visible": true
+        },
+        {
+          "id": "526df175-4fd5-407a-9f2e-1f738fe12f5f",
+          "name": "Img_P002_01.jpeg",
+          "shortdesc": "Img_P002_01.jpeg",
+          "type": "image",
+          "source": "Img_P002_01_20190624160159004.jpeg",
+          "visible": true
+        },
+        {
+          "id": "d65aa415-d5b7-460a-924d-8c50a4fb04d1",
+          "name": "Img_P001_01.jpeg",
+          "shortdesc": "Img_P001_01.jpeg",
+          "type": "image",
+          "source": "Img_P001_01_2019062416015892.jpeg",
+          "visible": true
+        },
+        {
+          "id": "4cc6f468-3989-4279-baa1-6a4a9ffba2a8",
+          "name": "Img_P076_01.jpeg",
+          "shortdesc": "Img_P076_01.jpeg",
+          "type": "image",
+          "source": "Img_P076_01_20190624160723732.jpeg",
+          "visible": true
+        },
+        {
+          "id": "a90908e0-7d27-44d0-9571-682bf5506bd3",
+          "name": "Img_P069_01.jpeg",
+          "shortdesc": "Img_P069_01.jpeg",
+          "type": "image",
+          "source": "Img_P069_01_20190624160723692.jpeg",
+          "visible": true
+        },
+        {
+          "id": "079c4ca4-b84a-4903-b68b-605d4cb92f9b",
+          "name": "Img_P013_01.jpeg",
+          "shortdesc": "Img_P013_01.jpeg",
+          "type": "image",
+          "source": "Img_P013_01_20190624160723652.jpeg",
+          "visible": true
+        },
+        {
+          "id": "4e3f0666-9c9e-47ce-abc2-5c396d70afd6",
+          "name": "Img_P011_01.jpeg",
+          "shortdesc": "Img_P011_01.jpeg",
+          "type": "image",
+          "source": "Img_P011_01_20190624160723611.jpeg",
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "ddd1bff1-7cd8-4d1d-82e6-42db9bf75acf",
+      "name": "Attachment 4",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "Source: Measurement log - todd",
+      "assets": [
+        "5605020b-ce06-4742-9549-68476ee7a806"
+      ]
+    },
+    {
+      "id": "e701390f-77ac-4116-bde5-75d8c10b2317",
+      "name": "Attachment 3",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "Source: Measurement log - todd",
+      "assets": [
+        "4d4065d9-0f7c-4702-87c2-223b4f2f99c9"
+      ]
+    },
+    {
+      "id": "3e78aa61-ff94-45d6-aea6-19318fab924b",
+      "name": "Attachment 2",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "Source: Measurement log - todd",
+      "assets": [
+        "526df175-4fd5-407a-9f2e-1f738fe12f5f"
+      ]
+    },
+    {
+      "id": "54818971-2442-44a4-a4cb-b5e977f7ec40",
+      "name": "Attachment 1",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "Source: Measurement log - todd",
+      "assets": [
+        "d65aa415-d5b7-460a-924d-8c50a4fb04d1"
+      ]
+    },
+    {
+      "id": "a858fc53-bc21-417f-b872-8608c5c076e4",
+      "name": "Attachment 76",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "Source: Measurement log - Tim",
+      "assets": [
+        "4cc6f468-3989-4279-baa1-6a4a9ffba2a8"
+      ]
+    },
+    {
+      "id": "b530e1d0-de78-4797-951c-e3c167591b12",
+      "name": "Attachment 69",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "Source: Measurement log - Tim",
+      "assets": [
+        "a90908e0-7d27-44d0-9571-682bf5506bd3"
+      ]
+    },
+    {
+      "id": "2c88b4f8-e9e1-440f-9993-8810129e2469",
+      "name": "Attachment 13",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "Source: Measurement log - Tim",
+      "assets": [
+        "079c4ca4-b84a-4903-b68b-605d4cb92f9b"
+      ]
+    },
+    {
+      "id": "7a465297-f291-44cd-94d9-930a8aebe5a6",
+      "name": "Attachment 11",
+      "type": "note",
+      "shortdesc": null,
+      "longdesc": "Source: Measurement log - Tim",
+      "assets": [
+        "4e3f0666-9c9e-47ce-abc2-5c396d70afd6"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "813288cd-d3f0-4bb3-8465-4abf2906b6d8",
+      "name": "View Station 3",
+      "thumbsource": "49a29f40-7863-416a-ade5-d705188a846b",
+      "panosource": "6a2dba5f-9503-4525-a6a0-572c352fd1ae",
+      "hotspots": [
+        {
+          "id": "529c8b90-e667-47e9-8ca9-88ed5ef4e061",
+          "posx": 9.3109595314344116,
+          "posy": 3.5083518358326975,
+          "posz": 0.0,
+          "type": "camera",
+          "source": "a6964350-00a7-49d9-a225-9d3a6f5e8452"
+        },
+        {
+          "id": "848a9567-e566-49da-8989-d7a7e5c4b0de",
+          "posx": 4.1485845044179595,
+          "posy": 9.043878958151927,
+          "posz": 0.0,
+          "type": "camera",
+          "source": "f00458bd-872d-4f49-8bad-edb8c1b463a7"
+        },
+        {
+          "id": "d7aee19b-7b5e-4a70-9526-8a4e9e4f6eb6",
+          "posx": 8.6306637404068436,
+          "posy": -4.9506474200223893,
+          "posz": 0.07234308987193469,
+          "type": "note",
+          "source": "ddd1bff1-7cd8-4d1d-82e6-42db9bf75acf"
+        },
+        {
+          "id": "2d243d69-bced-476e-97a7-dbdf12031218",
+          "posx": 9.3747303896973424,
+          "posy": 3.0051447976334846,
+          "posz": 1.4443112080647613,
+          "type": "note",
+          "source": "e701390f-77ac-4116-bde5-75d8c10b2317"
+        },
+        {
+          "id": "55af35d4-53a8-40f3-8901-3ddfad436966",
+          "posx": 9.3747288400106648,
+          "posy": 3.0051500672746121,
+          "posz": 1.4443103023352306,
+          "type": "note",
+          "source": "3e78aa61-ff94-45d6-aea6-19318fab924b"
+        },
+        {
+          "id": "767b5b19-5ff2-4222-85c2-62da46ca3514",
+          "posx": 7.579963521695122,
+          "posy": 6.368098280393073,
+          "posz": -0.99698410269474347,
+          "type": "note",
+          "source": "54818971-2442-44a4-a4cb-b5e977f7ec40"
+        },
+        {
+          "id": "07a4721e-b545-4213-ab68-8b04f8ac2244",
+          "posx": 8.0586258420334111,
+          "posy": 5.816329231788659,
+          "posz": -0.48100291636540371,
+          "type": "note",
+          "source": "a858fc53-bc21-417f-b872-8608c5c076e4"
+        },
+        {
+          "id": "a3d24db5-dcd6-4c9d-8a6c-02c1aae576a2",
+          "posx": 3.380400578222774,
+          "posy": 9.3158748760517778,
+          "posz": -0.88874474653770819,
+          "type": "note",
+          "source": "b530e1d0-de78-4797-951c-e3c167591b12"
+        },
+        {
+          "id": "848b2259-3009-4348-9b7d-722a5849c51e",
+          "posx": 6.8330139452018894,
+          "posy": 7.2246010444545217,
+          "posz": -0.34287049033584344,
+          "type": "note",
+          "source": "2c88b4f8-e9e1-440f-9993-8810129e2469"
+        },
+        {
+          "id": "18b1e4da-9f4f-4f52-ba87-260ee0161bff",
+          "posx": -0.18287963408584515,
+          "posy": 9.9421405202465483,
+          "posz": -0.3505665630209322,
+          "type": "note",
+          "source": "7a465297-f291-44cd-94d9-930a8aebe5a6"
+        }
+      ]
+    },
+    {
+      "id": "a6964350-00a7-49d9-a225-9d3a6f5e8452",
+      "name": "View Station 2",
+      "thumbsource": "6bb6df31-17ad-448d-8517-7cba8fcdb3eb",
+      "panosource": "10c3e1fd-b59e-4d78-b72f-1bf2434d2937",
+      "hotspots": [
+        {
+          "id": "7d5f3eb7-4a7c-4839-aad8-80c451253d92",
+          "posx": -9.3109595314344116,
+          "posy": -3.5083518358326975,
+          "posz": 0.0,
+          "type": "camera",
+          "source": "813288cd-d3f0-4bb3-8465-4abf2906b6d8"
+        },
+        {
+          "id": "ff327892-4625-47cc-a45d-53cbca5dcad5",
+          "posx": -8.8284251239176079,
+          "posy": 4.5892711655970357,
+          "posz": 0.0,
+          "type": "camera",
+          "source": "f00458bd-872d-4f49-8bad-edb8c1b463a7"
+        },
+        {
+          "id": "3ec8d9d5-cf7b-49a8-a6ec-49388e3018ff",
+          "posx": 0.043607929954160365,
+          "posy": -9.949516216471995,
+          "posz": 0.08789429222601941,
+          "type": "note",
+          "source": "ddd1bff1-7cd8-4d1d-82e6-42db9bf75acf"
+        },
+        {
+          "id": "dcc8bb44-db8a-4e9a-b34c-4d672eeeb5e0",
+          "posx": 9.1646203752060043,
+          "posy": 2.3205651749537082,
+          "posz": 3.1027746690907185,
+          "type": "note",
+          "source": "e701390f-77ac-4116-bde5-75d8c10b2317"
+        },
+        {
+          "id": "24831e47-1afb-467e-bec5-ea04bc2c1dff",
+          "posx": 9.16461766924062,
+          "posy": 2.3205760796457908,
+          "posz": 3.1027745060217287,
+          "type": "note",
+          "source": "3e78aa61-ff94-45d6-aea6-19318fab924b"
+        },
+        {
+          "id": "9bf33c17-ee13-47e8-9a7a-7232dea887c7",
+          "posx": -9.7108481161879165,
+          "posy": 1.5783981973645071,
+          "posz": -1.486804625660711,
+          "type": "note",
+          "source": "54818971-2442-44a4-a4cb-b5e977f7ec40"
+        },
+        {
+          "id": "80513586-1e5d-4f8c-b0ec-71e4bdc8c699",
+          "posx": -0.521005841920873,
+          "posy": 9.7850996532776513,
+          "posz": -1.7271009490211908,
+          "type": "note",
+          "source": "a858fc53-bc21-417f-b872-8608c5c076e4"
+        },
+        {
+          "id": "e359acd6-3a55-4d88-a13a-00c28d7dbc82",
+          "posx": -8.8199218487657447,
+          "posy": 4.5232250201658166,
+          "posz": -0.8671297472758055,
+          "type": "note",
+          "source": "b530e1d0-de78-4797-951c-e3c167591b12"
+        },
+        {
+          "id": "96a4be5a-32ad-4d8e-a68a-1f9a97545256",
+          "posx": 2.142661205885926,
+          "posy": 9.6944355192648981,
+          "posz": -0.65530368502441483,
+          "type": "note",
+          "source": "2c88b4f8-e9e1-440f-9993-8810129e2469"
+        },
+        {
+          "id": "c24e627b-c319-4f0f-8eee-3979b9756480",
+          "posx": -6.63227373569054,
+          "posy": 7.4091201667388393,
+          "posz": -0.34696318204279353,
+          "type": "note",
+          "source": "7a465297-f291-44cd-94d9-930a8aebe5a6"
+        }
+      ]
+    },
+    {
+      "id": "f00458bd-872d-4f49-8bad-edb8c1b463a7",
+      "name": "View Station 1",
+      "thumbsource": "a7333875-5b59-4132-9c9a-5d3818e52e4f",
+      "panosource": "24e646ec-9a62-4f8e-87b7-af9451a17a7b",
+      "hotspots": [
+        {
+          "id": "0af56725-aa53-48c8-a148-cc0c40f878c7",
+          "posx": -4.1485845044179595,
+          "posy": -9.043878958151927,
+          "posz": 0.0,
+          "type": "camera",
+          "source": "813288cd-d3f0-4bb3-8465-4abf2906b6d8"
+        },
+        {
+          "id": "8d10e414-b214-44f4-ae87-5d0721adf872",
+          "posx": 8.8284251239176079,
+          "posy": -4.5892711655970357,
+          "posz": 0.0,
+          "type": "camera",
+          "source": "a6964350-00a7-49d9-a225-9d3a6f5e8452"
+        },
+        {
+          "id": "9f2b1f13-ad5e-4e0d-931a-90115a603e1b",
+          "posx": 4.5693500573097312,
+          "posy": -8.8385669142680925,
+          "posz": 0.057227229261328352,
+          "type": "note",
+          "source": "ddd1bff1-7cd8-4d1d-82e6-42db9bf75acf"
+        },
+        {
+          "id": "c489f2c9-0b32-4925-b610-66bfc51cb153",
+          "posx": 9.74020396270595,
+          "posy": -0.87973788443225387,
+          "posz": 1.8322085087625668,
+          "type": "note",
+          "source": "e701390f-77ac-4116-bde5-75d8c10b2317"
+        },
+        {
+          "id": "f312144c-05d3-4d6e-9581-3dddb2ce18e7",
+          "posx": 9.7402044566166062,
+          "posy": -0.87973348860299461,
+          "posz": 1.8322079937431883,
+          "type": "note",
+          "source": "3e78aa61-ff94-45d6-aea6-19318fab924b"
+        },
+        {
+          "id": "a27a2d2f-1913-4279-9375-cdb11d26cee2",
+          "posx": 5.8773339243299265,
+          "posy": -7.7702602139769263,
+          "posz": -2.0205202669134037,
+          "type": "note",
+          "source": "54818971-2442-44a4-a4cb-b5e977f7ec40"
+        },
+        {
+          "id": "1db82229-55f7-4e32-925d-f0b1f6420ceb",
+          "posx": 9.9071752820702343,
+          "posy": -0.22859265282302552,
+          "posz": -0.89337748427632391,
+          "type": "note",
+          "source": "a858fc53-bc21-417f-b872-8608c5c076e4"
+        },
+        {
+          "id": "4e196461-3c80-44a0-90ed-9168398882fa",
+          "posx": -6.1535239249786038,
+          "posy": 2.6766678798753274,
+          "posz": -7.3465701089392468,
+          "type": "note",
+          "source": "b530e1d0-de78-4797-951c-e3c167591b12"
+        },
+        {
+          "id": "e261cdfe-bbee-4dd7-8d40-2a0fe121bfa3",
+          "posx": 8.4197704342508519,
+          "posy": 5.2695261880079043,
+          "posz": -0.584858605488631,
+          "type": "note",
+          "source": "2c88b4f8-e9e1-440f-9993-8810129e2469"
+        },
+        {
+          "id": "9838be7c-77e9-4e10-8423-1085fbf024fb",
+          "posx": -4.0715974729976265,
+          "posy": 9.0584175848947872,
+          "posz": -0.60800072002279493,
+          "type": "note",
+          "source": "7a465297-f291-44cd-94d9-930a8aebe5a6"
+        }
+      ]
+    }
+  ]
+}

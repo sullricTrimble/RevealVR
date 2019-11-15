@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!--
+        NOTES:
+        l-click mouse when hovering over icons to transition to that scene
+    -->
+
+    <meta charset="utf-8" />
+    <title>Reveal VR Viewer</title>
+    <meta name="description" content="Reveal VR Viewer" />
+
+    <!--<script src="assets/js/aframe.min.js"></script>-->
+    <script src="assets/js/aframe.js"></script>
+    <script src="assets/js/aframe-event-set-component.min.js"></script>
+    <script src="assets/js/aframe-layout-component.min.js"></script>
+    <script src="assets/js/aframe-template-component.min.js"></script>
+    <script src="assets/js/aframe-proxy-event-component.min.js"></script>
+    <script src="assets/js/aframe-look-at-billboard-component.min.js"></script>
+    <script src="assets/js/aframe-input-mapping-component.min.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+
+    <script src="assets/js/r-controllers.js"></script>
+    <script src="assets/js/r-buttonmappings.js"></script>
+    <script src="assets/js/r-vr.js"></script>
+
+</head>
+
+<body>
+    <a-scene sceneinit log="hello vr world!" setup-button-mappings >
+        <a-assets>
+            <!-- include #default scene -->
+            <!--<img id="defaultScene" src="assets/images/cubes.jpg">-->
+
+            <!--<img id="city" src="assets/images/city.jpg">
+            <img id="cubes" src="assets/images/cubes.jpg">
+            <img id="sechelt" src="assets/images/sechelt.jpg">
+            <img id="highway" src="assets/images/highway_4096-2048.png">
+            <img id="harden" src="assets/images/john_harden_8192x4096.png">-->
+            <!--<img id="city-thumb" src="assets/images/thumb-city.jpg">
+            <img id="cubes-thumb" src="assets/images/thumb-cubes.jpg">
+            <img id="sechelt-thumb" src="assets/images/thumb-sechelt.jpg">-->
+            <!-- <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg"> -->
+            <!-- <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg"> -->
+            <!-- <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg"> -->
+            <!--            <audio id="click-sound" src="assets/audio/click.ogg"></audio>-->
+            <!-- <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio> -->
+        </a-assets>
+
+        <!-- 360-degree image. -->
+        <a-sky id="image-360" radius="10" rotation="0 270 0"
+            animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
+            animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade">
+        </a-sky>
+
+        <!-- <a-light type="ambient" color="#445451"></a-light> -->
+        <!-- <a-light type="ambient" color="#FFFFFF"></a-light> -->
+        <a-light type="point" intensity="8" position="2 4 4"></a-light>
+
+        <!-- Image links. -->
+        <!--<a-entity id="links" layout="type: line; margin: 1.5" position="-3.5 -1 -4">
+            <a-entity id="mycubes" template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb"></a-entity>
+            <a-entity id="mycity" template="src: #link" data-src="#city" data-thumb="#city-thumb"></a-entity>
+            <a-entity id="mysechelt" template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb"></a-entity>
+
+            <a-entity id="myhighway" template="src: #link" data-src="#highway" data-thumb="#sechelt-thumb"></a-entity>
+            <a-entity id="myharden" template="src: #link" data-src="#harden" data-thumb="#sechelt-thumb"></a-entity>
+        </a-entity>-->
+
+        <!--<a-entity id="test1" template="src: #mylink" position="-1.5 -1 -4"></a-entity>
+        <a-entity id="test2" template="src: #mylink" position="1.5 -1 -4"></a-entity> -->
+
+        <!-- Camera -->
+        <a-camera id="cam" position="0 0 0">
+            <!-- <a-cursor id="cursor"
+                      event-set__mouseenter="_event: mouseenter; color: springgreen"
+                      event-set__mouseleave="_event: mouseleave; color: black"
+                      color="black"
+                      fuse="true"
+                      raycaster="objects: .link,.mylink"></a-cursor> -->
+
+            <!-- debug buttons 0.6-0.7 spacing-->
+            <a-entity id="textmapping" look-at="0 0 0" position="2 -3 -6" text="width:4;align:center;" geometry="height: 0.4; width:3.61;primitive:plane" material="shader:flat;color:#a91b1e"></a-entity>
+            <a-entity id="textbuttons" look-at="0 0 0" position="2 -3.5 -6" text="width:4;align:center;" geometry="height: 0.4; width:3.61;primitive:plane" material="shader:flat;color:#a91b1e"></a-entity>
+            <a-entity id="textgen" look-at="0 0 0" position="2 -4.0 -6" text="width:4;align:center;" geometry="height: 0.4; width:3.61;primitive:plane" material="shader:flat;color:#a91b1e"></a-entity>
+
+        </a-camera>
+
+        <!-- laser controls. -->
+        <!-- <a-entity laser-controls raycaster="objects: .mylink; far: 100"></a-entity> -->
+        <!-- <a-entity laser-controls="hand:right" ></a-entity> -->
+        <a-entity id="lefthand" auto-detect-controllers="hand:left" ></a-entity>
+        <a-entity id="righthand" auto-detect-controllers="hand:right" ></a-entity>
+
+    </a-scene>
+</body>
+
+</html>
